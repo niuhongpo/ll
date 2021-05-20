@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+img {
+    border: none;
+}
+html, body, #app .el-container {
+    height: 100%;
+}
+body {
+    background: #f5f6fa;
+}
+
+/* 字体 苹果-简 常规体 */
+@font-face {
+    font-family: "appleRoutine";
+    src: url("src/assets/font/PingFang-SC-W4.otf");
+}
+
+/* 字体 苹果-简 中黑体 */
+@font-face {
+    font-family: "appleBlack";
+    src: url("src/assets/font/PingFang-SC-Medium.otf");
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+    background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #EE9BF2;
+}
